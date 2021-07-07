@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ubuntu, sans-serif;
+  color: #5c728c;
+ }
+ .page {
+  background-image:url("../1images/backgroundAndIllustrations/AC_BGGraphic_LEFT_734x1369.png"), 
+  url("../1images/backgroundAndIllustrations/AC_BGGraphic_RIGHT_1151x1853.png");
+  background-position: left top, right top;
+  background-repeat: repeat-y;
+  background-attachment:fixed;
+  background-color: #f7f2eb;
+  font-family: 'Ubuntu', sans-serif;
+  overflow: hidden;
+}
+.topnav {
+  background-image:url("../1images/backgroundAndIllustrations/AC_BGGraphic_TITLE_5120x400.jpg");
+  background-repeat: repeat-x;
+  background-size: 2000px;
+  position: fixed;
+  height: 160px;
+  width: 100%;
+  align-items: center;
+}
+.accept_cookies {
+  display: block;
+  position: relative;
+  top: 20px;
+  margin:auto;
+  object-fit: cover;
+}
+nav {
+  display: block;
+  width: 870px;
+  margin: auto;
+  align-items: center;
+  top: 20px;
+  position: relative;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.nav_menu {
+  display:inline;
+  list-style:none;
+}
+.topnav a {
+  display: inline-block;
+  background-color: none;
+  padding: 0px 20px 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Ubuntu, sans-serif;
+  color: white;
+}
+.topnav a:hover {
+  border-bottom: 4px solid white;
+  color: white;
+}
+/*-------------page---------------*/
+.title {
+  width: 950px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+.floatBiscuits {
+  width: 1350px;
+  background: white;
+  padding-top: 200px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: auto;
+}
+.biscuitBox {
+  width: 950px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #5c728c;
+  padding: 10px;
+}
+.recipeImage {
+  height: 80%;
+  width: 135px;
+  display: block;
+  float: left;
+  margin-right: 20px;
+  object-fit: cover;
+}
+.recipeTitle {
+  font-family: 'Ubuntu', sans-serif;
+  color: #5c728c;
+  font-size: 22pt;
+  line-height: 28pt;
+  display: block;
+  margin: 0px 0px 20px 20px;
+  display: block;
+}
+.p1 {
+  color: #56b3ae; 
+  font-size: 16pt;
+  line-height: 22pt;
+  font-weight: bold;
+  margin: 0px 0px 20px 20px;
+  display: block;
+}
+
+footer {
+  overflow: hidden;
+  height: 100px;
+  background: #DDF0EE;
+  font-family: 'Ubuntu', sans-serif;
+  color:#56b3ae;
+  position:bottom;
+  bottom:0;
+  width:100%;
+  text-align: center;
+  padding:20px;
+  font-size:15px;
+}
+
+

@@ -1,0 +1,267 @@
+* {
+	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ 	font-family: Ubuntu, sans-serif;
+ 	color: #5c728c;
+ }
+ .page {
+  background-image:url("../1images/backgroundAndIllustrations/AC_BGGraphic_LEFT_734x1369.png"), 
+  url("../1images/backgroundAndIllustrations/AC_BGGraphic_RIGHT_1151x1853.png");
+  background-position: left top, right top;
+  background-repeat: repeat-y;
+  background-attachment:fixed;
+  background-color: #f7f2eb;
+  font-family: 'Ubuntu', sans-serif;
+}
+/*=================================nav bar styling=================================*/
+.topnav {
+	background-image:url("../1images/backgroundAndIllustrations/AC_BGGraphic_TITLE_5120x400.jpg");
+	background-repeat: repeat-x;
+	background-size: 2000px;
+	position: fixed;
+	height: 160px;
+	width: 100%;
+	align-items: center;
+}
+.accept_cookies {
+	display: block;
+	position: relative;
+	top: 20px;
+	margin:auto;
+	object-fit: cover;
+}
+nav {
+	display: block;
+	width: 870px;
+	margin: auto;
+	align-items: center;
+	top: 20px;
+	position: relative;
+}
+.main {
+	display: flex;
+	justify-content: space-between;
+}
+.nav_menu {
+  display:inline;
+  list-style:none;
+}
+.topnav a {
+	display: inline-block;
+  background-color: none;
+  padding: 0px 20px 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Ubuntu, sans-serif;
+  color: white;
+}
+.topnav a:hover {
+  border-bottom: 4px solid white;
+  color: white;
+}
+.main {
+	display: flex;
+	justify-content: space-between;
+}
+.nav_menu {
+  display:inline;
+  list-style:none;
+}
+.topnav a {
+	display: inline-block;
+  background-color: none;
+  padding: 0px 20px 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Ubuntu, sans-serif;
+  color: white;
+}
+.topnav a:hover {
+  border-bottom: 4px solid white;
+  color: white;
+}
+.hero-imageMedia{
+	display: none;
+}
+/*=================================summary styling=================================*/
+.grid_container {
+	width: 1350px;
+	background: white;
+	display: grid;
+ 	padding-top: 200px;
+ 	padding-left: 30px;
+ 	padding-right: 30px;
+	grid-template-columns: repeat(9, 120px);
+	grid-template-rows: 275px 275px 275px 140px 140px 275px;
+	grid-gap: 30px;
+ 	margin: auto;
+}
+.titleBox {
+	grid-area: 1/3/2/7;
+}
+.title{
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+.green_box {
+	grid-area: 2/1/6/3;
+	padding-top: 60px;
+	padding-left: 20px;
+	padding-right: 20px; 
+	background-color: #eef7f7;
+	font-size: 14pt;
+	line-height: 22pt;
+}
+hr {
+	color: #eef7f7;
+	margin: 2px;
+	border-width: 0px;
+}
+.p1 {
+	color: #56b3ae; 
+	font-size: 16pt;
+	line-height: 22pt;
+	font-weight: bold;
+}
+.keyline {
+	display: block;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 90%;
+}
+/*-----------bakekit&spatula-------------*/
+.spatula {
+	width: 20%;
+	display: block;
+	float: left;
+}
+.Bake_kit {
+	width: 70%;
+	display: block;
+	float: right;
+  	font-size: 12pt;
+}
+/*-----------time&clock-------------*/
+.clock {
+	margin-top: 10px;
+	margin-bottom: 55px;
+	width: 20%;
+	display: block;
+	float: left;
+}
+.time {
+	margin-top: 10px;
+	margin-bottom:30px;
+	width: 70%;
+	display: block;
+	float: right;
+} 
+/*-----------yield&noms-------------*/
+.noms {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	width: 20%;
+	display: block;
+	float: left;
+}
+.yield {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	width: 70%;
+	display: block;
+	float: right;
+}
+/*-----------cost&pounds-------------*/
+.pound {
+	margin-bottom: 30px;
+	width: 20%;
+	display: block;
+	float: left;
+}
+.cost {
+	display: block;
+	width: 70%;
+	float: right;
+	margin-bottom: 55px;
+}
+/*-----------difficulty&graph-------------*/
+ .graph {
+	margin-top: 10px;
+	margin-bottom: 55px;
+	width: 20%;
+	display: block;
+	float: left;
+}
+.difficulty {
+	margin-top: 10px;
+	margin-bottom:30px;
+	width: 70%;
+	display: block;
+	float: right;
+} 
+
+
+/*=================================summary styling end=================================*/
+.instructions {
+	grid-area: 2/3/9/7;
+	font-size: 16pt;
+	line-height: 28pt;
+	overflow: hidden;
+}
+.green_header {
+	font-weight: bold;
+	color: #56b3ae;
+}
+.pink_header {
+	font-weight: bold;
+	color: #e15a97;
+}
+.ingredientBox {
+	grid-area: 2/7/9/10;
+	font-size: 14pt;
+	line-height: 28pt;
+}
+.ingredients {
+	width: 100%;
+}
+.hero-image {
+	width: 100%;
+	height: 275px;
+	padding: 30px 30px 30px 0px;
+	object-fit: cover;
+}
+/*.flashbox {
+	grid-area: 5/3/8/7;
+	overflow: hidden;
+}
+.recipeInstagram {
+	display: block;
+	margin: auto;
+}
+*/
+.biscuit {
+	grid-area: 5/3/8/7;
+	overflow: hidden;
+}
+
+
+footer {
+  overflow: hidden;
+  height: 100px;
+  background: #DDF0EE;
+  font-family: 'Ubuntu', sans-serif;
+  color:#56b3ae;
+  position:bottom;
+  bottom:0;
+  width:100%;
+  text-align: center;
+  padding:20px;
+  font-size:15px;
+}
+
+/*-image: linear-gradient(,#56b3ae);*/

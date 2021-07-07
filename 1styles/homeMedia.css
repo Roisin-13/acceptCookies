@@ -1,0 +1,166 @@
+/*---------=============media style page===========---------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ubuntu, sans-serif;
+}
+
+/*----------------=============mobile style=============----------*/
+@media only screen and (max-width: 700px) {
+header {
+	min-width: 500px;
+}
+.topnav{
+  border-color: pink;
+  font-family: 'Ubuntu', sans-serif;
+  background-image:url("../1images/backgroundAndIllustrations/AC_BGGraphic_TITLE_5120x400.jpg");
+  background-repeat: repeat-x;
+  background-size: 1600px;
+  position: fixed;
+  height: 200px;
+  width: 100%;
+  align-items: center;
+}
+.main     { 
+  	display: none; 
+ }
+ .accept_cookies{
+  display: inline-block;
+  width: 90%;
+  object-fit: cover;
+
+ }
+ .hamburger{
+  position: fixed;
+  display: block;
+  align-self: center;
+  background-color: none;
+  font-family: Ubuntu, sans-serif;
+  font-size: 60px;
+  font-color: white;
+  margin: none;
+  padding: none;
+  text-decoration: none;
+ }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #bf4779;
+  width: 700px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #e15a97;}
+.dropdown:hover .dropdown-content {
+  display: block; 
+  z-index: 1;}
+/*-----------nav end-------------*/
+.page {
+  background: white;
+}
+.container {
+  width: 100%;
+  background: white;
+  padding-top: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+}
+.pageTitle {
+  display: block;
+  width: 100%;
+  align-self: center;
+}
+.helloWorld {
+  display: block;
+  width: 100%;
+  align-self: center;
+}
+.glamorShots {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.allRecipes {
+  margin: 50px;
+}
+.flexRecipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+}
+.menuImage {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.biscuits, .cupcakes, .allsorts{
+  margin: 20px;
+}
+
+	}
+/*----------------=============Tablet Styles=============----------*/
+@media only screen and (min-width: 701px) and (max-width: 1100px) {
+
+.page {
+  background-image:url("../1images/backgroundAndIllustrations/AC_BGGraphic_LEFT_734x1369.png"), 
+  url("../1images/backgroundAndIllustrations/AC_BGGraphic_RIGHT_1151x1853.png");
+  background-position: left top, right top;
+  background-repeat: repeat-y;
+  background-attachment:fixed;
+  background-color: #f7f2eb;
+  font-family: 'Ubuntu', sans-serif;
+}
+.topnav a {
+  display: inline-block;
+  background-color: none;
+  text-align: center;
+  padding: none;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Ubuntu, sans-serif;
+  color: white;
+  align-self: center;
+}
+.dropdown-content {
+  display: none;
+}
+/*-----------nav end-------------*/
+.container {
+  width: 80%;
+  margin: auto;
+  background: white;
+}
+.pageTitle {
+	width: 80%;
+}
+.helloWorld {
+	width: 100%;
+}
+.glam {
+	width: 150px;
+}
+.glamorShots {
+	width: 80%;
+	object-fit: cover;
+}
+.menuImage {
+	width: 150px;
+	object-fit: cover;
+}
+
+	}
+
+

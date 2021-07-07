@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ 	font-family: Ubuntu, sans-serif;
+ 	color: #5c728c;
+ }
+ .page {
+  background-image:url("../1images/backgroundAndIllustrations/AC_BGGraphic_LEFT_734x1369.png"), 
+  url("../1images/backgroundAndIllustrations/AC_BGGraphic_RIGHT_1151x1853.png");
+  background-position: left top, right top;
+  background-repeat: repeat-y;
+  background-attachment:fixed;
+  background-color: #f7f2eb;
+  font-family: 'Ubuntu', sans-serif;
+  overflow: hidden;
+}
+/*-------------------------nav bar------------------------*/
+.topnav {
+	background-image:url("../1images/backgroundAndIllustrations/AC_BGGraphic_TITLE_5120x400.jpg");
+	background-repeat: repeat-x;
+	background-size: 2000px;
+	position: fixed;
+	height: 160px;
+	width: 100%;
+	align-items: center;
+}
+.accept_cookies {
+	display: block;
+	position: relative;
+	top: 20px;
+	margin:auto;
+	object-fit: cover;
+}
+nav {
+	display: block;
+	width: 870px;
+	margin: auto;
+	align-items: center;
+	top: 20px;
+	position: relative;
+}
+.main {
+	display: flex;
+	justify-content: space-between;
+}
+.nav_menu {
+  display:inline;
+  list-style:none;
+}
+.topnav a {
+	display: inline-block;
+  background-color: none;
+  padding: 0px 20px 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Ubuntu, sans-serif;
+  color: white;
+}
+.topnav a:hover {
+  border-bottom: 4px solid white;
+  color: white;
+}
+/*-------------------------nav bar END------------------------*/
+.container {
+	width: 1350px;
+	/*height: 1350px;*/
+	background: white;
+ 	padding-top: 200px;
+ 	padding-left: 30px;
+ 	padding-right: 30px;
+ 	margin: auto;
+}
+.pageTitle {
+	display: block;
+	margin: auto;
+}
+/*-------------------new recipe-----------------------------*/
+.newRecipe {
+	margin: 20px;
+}
+.glamorShots {
+	display: flex;
+	margin: 10px;
+}
+.glam {
+	height: 150px;
+	object-fit: cover;
+}
+/*-------------------new recipe END-----------------------------*/
+/*--------------------menu quick links-------------------*/
+.allRecipes {
+	margin: 50px;
+}
+.flexRecipe {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 10px;
+	padding: 0px;
+}
+.menuImage {
+	height: 300px;
+	object-fit: cover;
+}
+.instagram {
+	/*border: 1px solid black;*/
+	padding: 10px;
+	margin: 10px;
+}
+/*--------------------menu quick links END-------------------*/
+
+footer {
+  overflow: hidden;
+  height: 100px;
+  background: #DDF0EE;
+  font-family: 'Ubuntu', sans-serif;
+  color:#56b3ae;
+  position:bottom;
+  bottom:0;
+  width:100%;
+  text-align: center;
+  padding:20px;
+  font-size:15px;
+}
